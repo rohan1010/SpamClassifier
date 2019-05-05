@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Mar 28 22:23:35 2019
-
-@author: rohan
-"""
-
-
 import pandas as pd
 data = pd.read_csv('~/dataset/spam.csv', encoding = 'latin-1')
 print(data.head())
