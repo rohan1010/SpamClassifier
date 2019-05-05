@@ -7,7 +7,7 @@ Created on Thu Mar 28 22:23:35 2019
 
 
 import pandas as pd
-data = pd.read_csv('C:\\Users\\rohan\\Downloads\\zips\\spam.csv', encoding = 'latin-1')
+data = pd.read_csv('~/dataset/spam.csv', encoding = 'latin-1')
 print(data.head())
 
 data = data.drop(data.columns[[2, 3, 4]], axis = 1)
